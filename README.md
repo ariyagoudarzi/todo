@@ -1,71 +1,71 @@
 
-# 🌟 **Todo App** 🌟
+# 🌟 **اپلیکیشن مدیریت کارها (Todo App)** 🌟
 
-Welcome to the **Todo App** 📝! This is a simple yet powerful application built using **HTML**, **CSS**, **JavaScript**, and **Django**. Manage your tasks effortlessly with a sleek interface and intuitive design.
+به **اپلیکیشن مدیریت کارها** 📝 خوش آمدید! این یک برنامه ساده اما قدرتمند است که با استفاده از **HTML**، **CSS**، **JavaScript**، و **Django** ساخته شده است. کارهای خود را به راحتی مدیریت کنید و از یک رابط کاربری زیبا و طراحی شهودی بهره‌مند شوید.
 
-![Todo App Screenshot](https://via.placeholder.com/800x400.png?text=Todo+App+Screenshot)
-
----
-
-## 🚀 **Features**
-
-- **Easy Task Management**: Add, edit, and delete your tasks with just a few clicks.
-- **Responsive Design**: Looks great on all devices, from desktops to smartphones.
-- **Dark Mode**: Enjoy a beautiful dark-themed UI that’s easy on the eyes.
-- **Smooth Animations**: Experience smooth transitions and interactions throughout the app.
+![تصویر از اپلیکیشن مدیریت کارها](https://via.placeholder.com/800x400.png?text=تصویر+اپلیکیشن+مدیریت+کارها)
 
 ---
 
-## 📂 **File Structure**
+## 🚀 **ویژگی‌ها**
 
-Here's a quick overview of the main files in this project:
-
-- **`home.html`**: The main HTML file that serves the Todo app interface.
-- **`style.css`**: Contains all the styling and design aspects of the app.
-- **`script.js`**: Includes the JavaScript logic for handling user interactions.
-- **`Django Backend`**: Powers the backend, handling data persistence and serving dynamic content.
+- **مدیریت آسان کارها**: با چند کلیک ساده، کارهای خود را اضافه، ویرایش و حذف کنید.
+- **طراحی ریسپانسیو**: در تمامی دستگاه‌ها، از دسکتاپ‌ها تا گوشی‌های هوشمند، ظاهر خوبی دارد.
+- **حالت تاریک**: از یک رابط کاربری تاریک و زیبا که به چشم‌هایتان آسیبی نمی‌زند لذت ببرید.
+- **انیمیشن‌های روان**: از انتقال‌ها و تعاملات روان در سراسر اپلیکیشن بهره‌مند شوید.
 
 ---
 
-## 🎨 **Styling and Design**
+## 📂 **ساختار فایل‌ها**
 
-The app is designed with a modern and clean look, utilizing the following features:
+در اینجا یک نمای کلی از فایل‌های اصلی این پروژه ارائه شده است:
 
-- **Custom Fonts**: The app uses the **Baloo Bhaijaan 2** font for a friendly and inviting appearance.
-- **Dark Theme**: A rich dark color palette to reduce strain on your eyes.
-- **Responsive Layout**: Adapts to various screen sizes, ensuring a great experience on any device.
-- **Interactive Elements**: Buttons, inputs, and other UI elements are styled for clarity and ease of use.
+- **`home.html`**: فایل HTML اصلی که رابط کاربری اپلیکیشن مدیریت کارها را ارائه می‌دهد.
+- **`style.css`**: شامل تمامی استایل‌ها و جنبه‌های طراحی اپلیکیشن است.
+- **`script.js`**: شامل منطق جاوااسکریپت برای مدیریت تعاملات کاربر است.
+- **`پشت‌بان Django`**: پشتیبان برنامه، که مدیریت داده‌ها و ارائه محتوای پویا را انجام می‌دهد.
 
 ---
 
-## 🛠️ **How to Run the Project**
+## 🎨 **استایل‌ها و طراحی**
 
-To get the Todo App up and running on your local machine, follow these steps:
+اپلیکیشن با ظاهری مدرن و تمیز طراحی شده است که از ویژگی‌های زیر بهره می‌برد:
 
-1. **Clone the repository**:
+- **فونت‌های سفارشی**: این اپلیکیشن از فونت **Baloo Bhaijaan 2** برای ظاهری دوستانه و جذاب استفاده می‌کند.
+- **تم تاریک**: یک پالت رنگی تاریک غنی برای کاهش خستگی چشم‌هایتان.
+- **چیدمان ریسپانسیو**: به اندازه‌های مختلف صفحه‌نمایش سازگار می‌شود تا تجربه کاربری عالی در هر دستگاهی را تضمین کند.
+- **عناصر تعاملی**: دکمه‌ها، ورودی‌ها و دیگر عناصر رابط کاربری برای وضوح و سهولت استفاده طراحی شده‌اند.
+
+---
+
+## 🛠️ **چگونه پروژه را اجرا کنیم**
+
+برای اجرای اپلیکیشن مدیریت کارها در سیستم محلی خود، مراحل زیر را دنبال کنید:
+
+1. **مخزن را کلون کنید**:
    ```bash
    git clone https://github.com/parham006/todo.git
    ```
-2. **Navigate to the project directory**:
+2. **به دایرکتوری پروژه بروید**:
    ```bash
    cd todo
    ```
-3. **Install dependencies**:
+3. **وابستگی‌ها را نصب کنید**:
    ```bash
    pip install -r requirements.txt
    ```
-4. **Run the Django development server**:
+4. **سرور توسعه Django را اجرا کنید**:
    ```bash
    python manage.py runserver
    ```
-5. **Open the app in your browser**:
-   - Go to `http://127.0.0.1:8000` to view the app.
+5. **اپلیکیشن را در مرورگر خود باز کنید**:
+   - به `http://127.0.0.1:8000` بروید تا اپلیکیشن را مشاهده کنید.
 
 ---
 
-## 💻 **Code Snippets**
+## 💻 **کدهای نمونه**
 
-Here are some key snippets from the project:
+در اینجا چند کد مهم از پروژه آورده شده است:
 
 ### **HTML**
 ```html
@@ -73,7 +73,7 @@ Here are some key snippets from the project:
   <div class="plan_box hidden">
     <button class="remove_but">✖️</button>
     <form method="POST" action="/">
-      <label class="plan_label">Add your plan</label>
+      <label class="plan_label">افزودن برنامه شما</label>
     </form>
   </div>
 </div>
@@ -108,22 +108,16 @@ removeBut.addEventListener("click", function () {
 
 ---
 
-## 🤝 **Contributing**
+## 🤝 **مشارکت**
 
-Contributions are welcome! If you have suggestions for improvements or want to report bugs, please open an issue or submit a pull request.
-
----
-
-## 📄 **License**
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+مشارکت‌ها خوش‌آمد هستند! اگر پیشنهاداتی برای بهبود دارید یا می‌خواهید اشکالات را گزارش دهید، لطفاً یک موضوع جدید باز کنید یا درخواست کش (pull request) ارسال کنید.
 
 ---
 
-## 📬 **Contact**
+## 📬 **تماس**
 
-If you have any questions or feedback, feel free to reach out to me at [parham@example.com](mailto:parham@example.com).
+اگر سوالی دارید یا بازخوردی می‌خواهید ارائه دهید، لطفاً با من در [parhamalipour640@gmail.com](mailto:parhamalipour640@gmail.com) در تماس باشید.
 
 ---
 
-Enjoy using the Todo App! 🎉
+از استفاده از اپلیکیشن مدیریت کارها لذت ببرید! 🎉
