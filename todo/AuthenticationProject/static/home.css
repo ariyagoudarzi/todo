@@ -1,0 +1,361 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@400..800&display=swap");
+
+body {
+  background-color: rgb(28, 28, 28);
+  margin: 0;
+  font-family: "Baloo Bhaijaan 2", sans-serif;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  padding: 7px;
+}
+
+.header {
+  display: flex;
+  height: 80px;
+  background: rgb(38, 38, 38);
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+}
+
+.hamburger-icon {
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  margin-left: 30px;
+}
+
+.name_app {
+  font-size: 30px;
+  font-weight: bolder;
+  color: rgb(255, 255, 255);
+}
+
+.search-box {
+  display: flex;
+  align-items: center;
+  background-color: rgb(50, 50, 50);
+  padding: 8px;
+  border-radius: 5px;
+  width: 500px;
+}
+
+.search-input {
+  flex: 1;
+  border: none;
+  background: none;
+  outline: none;
+  font-size: 16px;
+  color: rgb(200, 200, 200);
+}
+
+.search-icon {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0 10px;
+}
+
+.user-profile {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.profile_box {
+  display: flex;
+  width: 150px;
+  height: 40px;
+  background-color: rgb(57, 119, 135);
+  align-items: center;
+  justify-content: center;
+  border-radius: 25px;
+}
+
+.user_id {
+  color: aliceblue;
+  margin-left: 6px;
+}
+
+.login-link {
+  text-decoration: none;
+}
+
+.login_box {
+  display: flex;
+  width: 100px;
+  height: 40px;
+  background-color: rgb(57, 119, 135);
+  align-items: center;
+  justify-content: center;
+  border-radius: 25px;
+}
+
+.login_txt {
+  font-size: 20px;
+  color: aliceblue;
+}
+
+.body {
+  display: flex;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80px;
+  height: 1000px;
+  background: rgb(38, 38, 38);
+}
+
+.box {
+  display: flex;
+  height: 1000px;
+  width: 1470px;
+  background-image: url("/static/YgSfSQI.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.intobox {
+  height: 900px;
+  width: 1300px;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.35);
+  -webkit-backdrop-filter: blur(7px);
+  backdrop-filter: blur(7px);
+}
+
+.compose {
+  display: flex;
+  margin-bottom: 20px;
+  background-color: rgb(57, 119, 135);
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.icon {
+  margin-bottom: 30px;
+  color: rgb(200, 200, 200);
+}
+
+.footer {
+  height: 50px;
+  background: rgb(38, 38, 38);
+}
+
+.addNoteBtn {
+  color: #ffffff;
+  margin-left: 15px;
+  font-size: 18px;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.overlay {
+  width: 100vw;
+  height: 100vh;
+  background-color: #00000071;
+  position: fixed;
+  top: 0;
+  backdrop-filter: blur(5px);
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.remove_but {
+  background: none;
+}
+
+
+.plan_box {
+  width: 700px;
+  height: 500px;
+  background-color: rgb(38, 38, 38);
+  position: fixed;
+  border-radius: 15px;
+}
+
+#id_title{
+  background-color: rgb(38,38,38);
+  border: solid #ffffff;
+  width: 600px;
+  height: 350px;
+  color:cornsilk;
+  display:flex;
+  justify-items: start;
+  align-items: flex-start;
+}
+
+#btn-info{
+  margin-top: 20px; /* Spacing above the button */
+  margin-top: 16.8px;
+  border-radius: 0% 0% 12px 12px / 0% 0% 12px 12px;
+  background-color: #397783;
+  border: none;
+  width: 100%;
+  height: 50px;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+#btn-info:hover{
+  font-weight: bolder;
+  border: 2px solid #ffffff;
+  transition: 1s ;
+}
+
+@media (max-width: 768px) {
+  .plan_box, #id_title, #btn-info {
+    width: 90%; /* Adjust width on smaller screens */
+    height: auto; /* Allow height to adapt to content */
+    margin: 10px; /* Add margin for spacing */
+  }
+
+  #btn-info {
+    font-size: 16px; /* Responsive font size */
+  }
+}
+.plan_label{
+  display: flex;
+  color: aliceblue;
+  font-weight: bold;
+
+}
+.item-row{
+  margin-left:auto;
+  margin-right: auto;
+  height: 70px;
+  width: 95%;
+  background-color: #0b166824;
+  margin-top: 10px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: 0.7s;
+}
+.item-row:hover{
+  margin-left:auto;
+  margin-right: auto;
+  height: 80px;
+  width: 98%;
+  background-color: #0b166824;
+  margin-top: 10px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: 0.7s;
+  cursor: pointer;
+}
+
+.edit_icon{
+  display: flex;
+  width: 40px;
+  height: 50px;
+  background-color: rgb(45, 145, 115);
+  align-items: flex-end;
+  justify-content: center;
+  border-radius:15px;
+}
+.delete_icon{
+  display: flex;
+  width: 40px;
+  height: 50px;
+  background-color: rgb(158, 39, 57);
+  align-items: flex-end;
+  justify-content: center;
+  margin-right: 10px;
+  border-radius:15px;
+}
+.icon_box{
+  display: flex;
+  gap: 10px;
+}
+.plan_txt{
+  margin-left: 10px;
+  font-weight: bold;
+  color: #efefef;
+  
+}
+.menu {
+  display: flex;
+  width: 150px;
+  height: 70px;
+  background: rgb(38, 38, 38);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  border: 1px solid rgb(61, 61, 61);
+  border-radius: 10px;
+  z-index: 999;
+  position: absolute;
+  flex-direction: column;
+  align-items: center;
+  list-style: none;
+  font-family: "Baloo Bhaijaan 2", sans-serif;
+  font-size: 25px;
+  font-weight: bolder;
+  color: rgb(61, 61, 61);
+  top: 70px;
+  justify-content: center;
+}
+
+.logmenudrop {
+  font-family: "Baloo Bhaijaan 2", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgb(57, 119, 135);
+  width: 100%;
+  color: rgb(255, 255, 255);
+  border-radius: 20px;
+  font-size: 20px;
+  margin: auto;
+  margin-top: 5px;
+  margin-bottom: 3px;
+  padding: 5px;
+  border-style: none;
+  cursor: pointer;
+}
+.arrow {
+  width: 20px;
+  height: 20px;
+  fill: whitesmoke;
+  margin-top: 2px;
+  margin-left: 5px;
+  transition: 0.5s;
+}
+.arrow:hover {
+  width: 20px;
+  height: 20px;
+  fill: whitesmoke;
+  margin-top: 2px;
+  margin-left: 5px;
+  transform: rotate(90deg);
+}
